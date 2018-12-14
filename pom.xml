@@ -5,7 +5,7 @@
 
   <groupId>com.plane.www</groupId>
   <artifactId>plane</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
 
   <name>plane</name>
   <!-- FIXME change it to the project's website -->
@@ -21,7 +21,7 @@
     <connection>scm:git:https://github.com/dasarinaresh558/plane.git</connection>
     <developerConnection>scm:git:https://github.com/dasarinaresh558/plane.git</developerConnection>
    <!-- <url>https://svn.jenkins-ci.org/trunk/hudson/plugins/MYPLUGINNAME</url> -->
-    <tag>HEAD</tag>
+    <tag>v1.1</tag>
   </scm>
 
   <dependencies>
