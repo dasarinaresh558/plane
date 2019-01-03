@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('clone') { 
             steps {
-                bat 'mvn clean -f plane'
+                bat 'mvn clean'
             }
         }
         stage('Test'){
             steps {
-                bat 'mvn test -f plane ' 
+                bat 'mvn test ' 
             }
         }
         stage('Deploy') {
             steps {
-                bat 'mvn deploy -f plane' 
+                bat 'mvn deploy' 
             }
         }
             }
